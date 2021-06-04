@@ -44,7 +44,6 @@ export default function Header({
       </NavLink>
 
       <UserProfile
-        data-testid="club-selection"
         href="/#"
         onClick={(event) => {
           event.preventDefault();
